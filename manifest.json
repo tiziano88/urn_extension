@@ -1,0 +1,21 @@
+{
+  "name": "Test",
+  "description": "Tst",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "urn:*"
+  ],
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }
+   ]
+  }
+}
